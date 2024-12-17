@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro valor
+    escreva("Olá, Mundo! Esse é meu segundo exercício no PortugolWebstudio! \n")
+    escreva("Hoje é dia 16/12 \n")
+    escreva("Vamos descobrir se um número é par ou ímpar! \n")
+    escreva("Digite um número: ")
+    leia(valor)
+    se (valor % 2 == 0){
+      escreva("Puxa, parece que ", valor, " é um número par! Que maravilha!")
+    }
+    senao{
+      escreva("Puxa, parece que ", valor, " é um número ímpar! Estou tão feliz :D !")
+    }
+
+    
+  }
+}
